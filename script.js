@@ -4,7 +4,7 @@ const currencyEl_two = document.getElementById('currency-two');
 const amountEl_two = document.getElementById('amount-two');
 const rateEl = document.getElementById('rate');
 const swap = document.getElementById('swap');
-const apiKey = '73f6ce2bedc052eab39c8bcad642ec76';
+const apiKey = [u can use your own API key here}';
 const apiEndpoint = `http://api.coinlayer.com/live?access_key=${apiKey}`;
 
 function calculate() {
